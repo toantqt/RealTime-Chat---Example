@@ -1,0 +1,73 @@
+body{
+    background-color:#9ea7b5;
+}
+
+#form{
+    width: 80%;
+    margin: auto;
+}
+
+#username{
+    border: solid 1px black;
+    height: 30px;
+}
+
+#left, #right{
+    min-height: 450px;
+}
+
+
+#left{
+    width: 30%;
+    float: left;
+    background-color: #edf1f5;
+}
+
+#right{
+    width: 69%;
+    float: right;
+    background-color: #d9dbce;
+    
+}
+
+#boxTitle{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#boxContent{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#users{
+    padding-top: 10px;
+    background-color:  #d9dbce;
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    margin: auto;
+}
+#sayHi{
+    text-align: right;
+}
+
+#listMessages{
+    height: 300px;
+    background-color:white ;
+}
+
+#txtMessage{
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 35px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }

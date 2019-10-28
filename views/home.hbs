@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <script src="jquery.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <div id="loginForm">
+            <p>Username</p>
+            <input type="text" id="username">
+            <input type="button" value="Login" id="btnRegister">
+        </div>
+        <div id="chatForm">
+            <div id="left">
+                    <div id="boxTitle">
+                        <p>User Online</p>
+                    </div>
+                    <div id="boxContent"></div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    Hello <span id="currentUser"> </span>
+                    <input type="button" id="btnLogout" value="Logout">
+                </div>
+                <div id="listMessages">
+                    
+                </div>
+                <input type="text" id="txtMessage">
+                <input type="button" id="btnSendMessage" value="Send">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
